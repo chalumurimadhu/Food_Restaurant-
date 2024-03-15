@@ -111,6 +111,23 @@
     footer{
         /* height: none; */
     }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .footer-nav{
+        line-height: 20px;
+    }
+    .social-links{
+        float: left;
+        margin-top: 10px;
+    }
+    .copy{
+        
+    }
     #h2{
         display: none;
        
@@ -124,5 +141,12 @@
     }
     .hero-text-box{
         bottom: 40px;
+    }
+    .section-steps{
+        height: auto;
+    }
+    .btn-app img{
+        width: 120px;
+        height: auto;
     }
 }
